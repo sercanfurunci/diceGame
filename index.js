@@ -9,7 +9,7 @@ var images2 = "dice"+ randomNumber2 +".png";
 
 document.querySelector(".dice .img1").setAttribute("src",images1);
 document.querySelector(".dice .img2").setAttribute("src",images2);
-changeTitle(randomNumber1, randomNumber2);
+
 
 
 if(randomNumber1 > randomNumber2){
